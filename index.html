@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/wether.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <main style="display: flex;flex-direction: column;">
+    <div class="logo">
+        <img src="gif/DASCAST47.gif"/>
+    </div>
+    <div class="card">
+        <div class="search">
+        <input type="text" placeholder="Enter the city name" spellcheck="false">
+        <button><img src="images/search.png"></button>
+        </div>
+        <div class="undefined">
+            <p>No city found Invalid City Name Reenter the name</p>
+        </div>
+        <div class="weather" id="weather-dis">
+            <img src="images/snow.png" class="weather-icon">
+            <p id="dat">DAY 1</p>
+            <h1 class="temp"></h1>
+            <h2 class="city"></h1>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humid"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+        <br>
+        <div class="weathers4" id="weathers4-dis" style="margin-bottom: 20px;">
+            <div id="weather1">
+                <img src="images/snow.png" class="weather-icon1">
+                <p id="dat1">DAY 2</p>
+            <h1 class="temp1"></h1>
+            <h2 class="city1"></h1>
+            <div class="details">
+                <div class="col" class="">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humid1"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col" class="col2">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind1"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+            <div id="weather2">
+                <img src="images/snow.png" class="weather-icon2">
+                <p id="dat2">DAY 3</p>
+            <h1 class="temp2"></h1>
+            <h2 class="city2"></h1>
+            <div class="details">
+                <div class="col col2">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humid2"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind2"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <br>
+            <div id="weather3">
+                <img src="images/snow.png" class="weather-icon3">
+                <p id="dat3">DAY 4</p>
+            <h1 class="temp3"></h1>
+            <h2 class="city3"></h1>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humid3"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind3"></p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </main>
+        </center>
+        <audio id="myaudio" loop>   
+            Your browser does not support the audio element.
+        </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
